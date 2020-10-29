@@ -39,7 +39,7 @@ public class Tortoise extends Thread {
             try {
                 Thread.sleep(3000L);
             } catch (InterruptedException e) {
-                System.err.println("The Tortoise has won the path!");
+                System.err.println("The Tortoise has lost the path!");
             }
         }
         JOptionPane.showConfirmDialog(
