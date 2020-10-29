@@ -1,12 +1,20 @@
+/*   Created by IntelliJ IDEA.
+ *   Author: Kritika Sharma
+ *   Date: 29-10-2020
+ *   Time: 11:15
+ *   File: Tortoise.java
+ */
 package thread.tortoise;
 
 import javax.swing.*;
 
-public class Tortoise extends Thread{
+public class Tortoise extends Thread {
     private static final int MILESTONES = 5;
-    public Tortoise(){
+
+    public Tortoise() {
         super("Tortoise");
     }
+
     @Override
     public void run() {
         System.out.println("The thread Tortoise has started.");

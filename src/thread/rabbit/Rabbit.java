@@ -1,11 +1,15 @@
+/*   Created by IntelliJ IDEA.
+ *   Author: Kritika Sharma
+ *   Date: 29-10-2020
+ *   Time: 11:15
+ *   File: Rabbit.java
+ */
 package thread.rabbit;
 
 import javax.swing.*;
 
 public class Rabbit implements Runnable {
-
     private static final int MILESTONES = 5;
-
     private final Thread rabbit;
 
     public Rabbit() {

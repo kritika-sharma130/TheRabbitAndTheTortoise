@@ -1,3 +1,9 @@
+/*   Created by IntelliJ IDEA.
+ *   Author: Kritika Sharma
+ *   Date: 29-10-2020
+ *   Time: 11:15
+ *   File: Race.java
+ */
 package main;
 
 import thread.rabbit.Rabbit;
